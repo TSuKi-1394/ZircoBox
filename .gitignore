@@ -1,0 +1,25 @@
+# Journaux de la machine locale et résultats d'analyse (jamais publiés)
+local/
+zircolite-output/
+
+/*.evtx
+detected_events*
+
+# Clés et notes personnelles
+id_ed25519*
+github_signing*
+*.pem
+*.key
+*temporaire*
+
+# Réglages d'éditeur
+.vscode/
+.claude/
+
+# Ruleset généré par build-rules (régénérable)
+rules-custom/
+
+# Rapports web
+*.zip
+web/
+zircolite-package-*/
